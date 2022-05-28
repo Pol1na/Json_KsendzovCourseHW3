@@ -1,1 +1,11 @@
-
+{
+  "id": 1,
+  "name": "Can't log in after clicking the login button",
+  "description":"Can't log in when the correct data was entered",
+  "steps_to_represent": {"1":"Open the auth page", "2": "Enter the login value 'test' ", "3": "Enter the password value 'test'", "4":"Press 'Log In' button"},
+  "actual_result":"Error message 'Incorrect username or password' appeared",
+  "expected_result":"Login successful. User profile appeared",
+  "priority": "High",
+  "severity": "Blocker",
+  "environment": "Chrome 102.0.5005.63"
+}
